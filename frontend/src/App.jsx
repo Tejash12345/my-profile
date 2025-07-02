@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import Admin from './pages/Admin';
 import Resume from './pages/Resume';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/admin" element={<Admin />} />
         <Route path="/resume" element={<Resume />} />
         {/* Optional: fallback for unmatched routes */}
         <Route path="*" element={<h1>404 - Page Not Found</h1>} />
